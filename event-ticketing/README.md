@@ -50,9 +50,6 @@ text
 ng serve → mvn spring-boot:run → POST /initialize → 
 Select seats → Live price → Buy → Success popup + blur effect
 That's it! Your booking system is live
-Reference images:
-<img width="602" height="816" alt="01" src="https://github.com/user-attachments/assets/42391de0-3361-4d75-8261-3a355cc88a9e" />
-
 
 
 
