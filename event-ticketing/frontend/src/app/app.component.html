@@ -1,0 +1,16 @@
+<h2>Dynamic Event Ticketing System</h2>
+
+<div class="grid">
+  <div
+    *ngFor="let seat of seats"
+    (click)="toggleSeat(seat)"
+    [class.booked]="seat.booked"
+    [class.selected]="selected.includes(seat.id)">
+    {{ seat.id }}
+  </div>
+</div>
+
+<h3>Total Seats Selected: {{ selected.length }}</h3>
+<h3>Total Price: 💸{{ totalPrice }}</h3>
+
+<button (click)="buy()">Buy</button>

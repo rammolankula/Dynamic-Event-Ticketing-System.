@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.grid div {
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #333;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.booked {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.selected {
+  background-color: #4caf50;
+  color: white;
+}
